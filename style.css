@@ -1,0 +1,100 @@
+body, div, p, h1, h2, span {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgb(229, 225, 225);
+}
+
+#top {
+    background-color: white;
+    margin: 0px 20px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#top p {
+    color: rgb(101, 100, 100);
+}
+
+.commentsContainer {
+    background-color: rgb(169, 167, 167);
+    margin: 0px 20px;
+    padding-top: 100px;
+    height: 900px;
+}
+
+.input {
+    margin: 0 20px;
+    padding: 20px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.input :first-child {
+    margin-right: 10px;
+}
+.input :not(:first-child):not(:last-child) {
+    padding-right: 70%;
+}
+
+.input #submit {
+    color: aqua;
+    float: right;
+    padding-left: 20px;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+.comments {
+    background-color: rgb(229, 222, 222);
+    margin: 20px;
+    padding: 10px;
+}
+
+.comments .edit {
+    color: aqua;
+}
+
+.comments .delete {
+    color: aqua;
+}
+
+.comments span {
+    float: right;
+    padding: 0 10px;
+}
+
+.comments span:hover {
+    cursor: pointer;
+}
+
+.noDisplay {
+    display: none;
+}
+
+#editComment {
+    padding-right: 75%;
+}
+
+#editSubmit {
+    color: aqua;
+    float: right;
+    padding-left: 20px;
+}
+
+.comments .material-icons {
+    float: left;
+    font-size: 48px;
+}
